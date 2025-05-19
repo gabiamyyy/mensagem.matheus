@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Para Matheus 💘</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      text-align: center;
+      padding-top: 100px;
+    }
+    #caixa {
+      display: none;
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border: 2px solid #ff69b4;
+      width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(255,105,180,0.3);
+    }
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ff85c1;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Clique no botão, Matheus 💘</h1>
+  <button onclick="mostrarCaixa()">Abrir mensagem</button>
+
+  <div id="caixa">
+    <p>Infelizmente Matheus, eu estava sem capacete quando bati meus olhos em você 🌷🫦<br><br>- Gabi 💋</p>
+  </div>
+
+  <script>
+    function mostrarCaixa() {
+      document.getElementById("caixa").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
